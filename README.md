@@ -24,8 +24,42 @@ This project helps you learn how to connect **AI reasoning**, **automation workf
 Follow these simple steps to set up and run the project locally on **any system (Windows, macOS, or Linux)**.
 
 ---
+# ⚙️ Setup Guide  
 
-### 1️⃣ Clone the Repository
+Follow these simple steps to set up and run the **AI Voice Assistant** project locally on your system — whether you’re on **Windows**, **macOS**, or **Linux**.
+
+---
+
+## 🧩 1️⃣ Install Git (If Not Already Installed)  
+
+Before cloning the project, make sure **Git** is installed on your system.
+
+### 🪟 For Windows:  
+- Visit [https://git-scm.com/downloads](https://git-scm.com/downloads)  
+- Download and install Git using the setup wizard (keep default settings).  
+
+### 🍎 For macOS/Linux:  
+Open **Terminal** and type:  
+```bash
+git --version
+```
+
+If Git isn’t found, install it using:
+
+```bash
+# macOS
+brew install git
+
+# Ubuntu/Linux
+sudo apt install git
+```
+## 💻 2️⃣ Open Your IDE & Terminal
+
+Open your preferred IDE (e.g., VS Code, PyCharm, or any other code editor).
+
+Inside your IDE, open the Terminal or Command Prompt window.
+
+### Clone the Repository
 
 Open your terminal and run:
 
@@ -39,13 +73,10 @@ This downloads the project folder to your system.
 
 ---
 
-### 2️⃣ Set Up Gemini API Key
+### 3️⃣ Set Up Gemini API Key
 
 To use the assistant, you’ll need to connect it with **Google Gemini AI** using an API key.
 
-### 2️⃣ Set Up Gemini API Key
-
-To use the assistant, you’ll need to connect it with **Google Gemini AI** using an API key.
 
 #### 🔹 Steps to get your API key:
 
@@ -62,7 +93,7 @@ Never share it publicly or upload it to GitHub repositories.
 
 ---
 
-### 3️⃣ Add Your Gemini Key to the `.env.example` File
+### Add Your Gemini Key to the `.env.example` File
 
 Your `.env.example` file includes placeholders for all required environment variables.  
 You’ll **copy this file** (don’t move it) and then update the fields.
@@ -75,7 +106,7 @@ cp .env.example .env
 
 ---
 
-### 3️⃣ Configure n8n (Google Tasks Workflow Only)
+### Configure n8n (Google Tasks Workflow Only)
 
 You’ll create a simple **n8n workflow** that receives tasks from the AI Assistant and adds them to your **Google Tasks** account.
 
