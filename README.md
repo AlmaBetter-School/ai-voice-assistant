@@ -139,8 +139,6 @@ Add or list tasks when you say something like:
 🌐 Add Production Webhook URL to .env.example
 Once your workflow is created and deployed, copy the Production Webhook URL from n8n and add it to your .env.example file as shown below:
  ```
-bash
-Copy code
 N8N_TASKS_WEBHOOK=https://your-n8n-instance-url/webhook/tasks
  ```
 💡 Tip: Keep your .env.example file updated so new developers know which environment variables are required.
