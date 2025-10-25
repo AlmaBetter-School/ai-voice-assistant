@@ -43,12 +43,20 @@ This downloads the project folder to your system.
 
 To use the assistant, you’ll need to connect it with **Google Gemini AI** using an API key.
 
+### 2️⃣ Set Up Gemini API Key
+
+To use the assistant, you’ll need to connect it with **Google Gemini AI** using an API key.
+
 #### 🔹 Steps to get your API key:
-1. Visit [**Google AI Studio**](https://aistudio.google.com/api-keys)  
+
+1. Visit <a href="https://aistudio.google.com/api-keys" target="_blank">**Google AI Studio**</a>  
 2. Sign in with your Google account  
 3. Click **“Create API Key”**  
 4. Copy the generated API key — you’ll need to add it to your environment file in the next step  
-[**Video Guidelines**](https://www.loom.com/share/81f9cef408c449ccbc5977fd06bff818) 
+
+🎥 Need help? Watch this short setup guide:  
+<a href="https://www.loom.com/share/81f9cef408c449ccbc5977fd06bff818" target="_blank">**Video Guidelines**</a>
+
 💡 **Keep your API key private.**  
 Never share it publicly or upload it to GitHub repositories.
 
