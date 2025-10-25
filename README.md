@@ -17,11 +17,7 @@ This project helps you learn how to connect **AI reasoning**, **automation workf
 - 💬 **Conversational UI** – Chat-style interface with both mic and text input  
 - ✅ **Smart Confirmation** – Asks before performing any real action  
 
----
 
-## 🚀 Setup Guide
-
-Follow these simple steps to set up and run the project locally on **any system (Windows, macOS, or Linux)**.
 
 ---
 # ⚙️ Setup Guide  
